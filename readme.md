@@ -14,13 +14,13 @@ This is a minimal backend test made to add and retrieve posts from a postgres DB
 
 ### cd into project folder
 
-> docker-compose up -d
+> docker-compose up --build
 
 ### This will initialize two contrainers one for our express server and for our database.
 
 ---
 
-### Use postman to play around with it, here I provide a json snippets to try out(0.0.0.0:5000/posts):
+### Use postman to play around with it, here I provide a json snippet to try out(0.0.0.0:5000/posts):
 
 ---
 
