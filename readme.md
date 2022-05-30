@@ -16,7 +16,7 @@ This is a minimal backend test made to add and retrieve posts from a postgres DB
 
 > docker-compose up --build
 
-### This will initialize two contrainers one for our express server and for our database.
+### This will initialize two containers one for our express server and one for our database.
 
 ---
 
