@@ -31,7 +31,6 @@ services:
 networks:
   app-network:
       driver: bridge
-  web-root:
-    driver: local
+ 
 volumes:
   postgres:
