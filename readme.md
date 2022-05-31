@@ -6,12 +6,23 @@
 
 This is a minimal backend test made to add and retrieve posts from a postgres DB with prisma ORM.
 
+&nbsp;
+## Technologies used for the project
+
+---
+
+- ExpressJs
+- Prisma
+- Postgres
+- Docker
+
+&nbsp;
 ## Run the application
 
 ---
 
 ### Download project
-> git clone https://github.com/Zoll-e/
+> git clone https://github.com/Zoll-e/BackendTest
 
 > cd into project folder
 BackendTest
@@ -23,18 +34,19 @@ BackendTest
 > npm install && npx prisma migrate dev --name init && npm start
 
 ---
+&nbsp;
 
-### Use postman to play around with it
+## Use postman to play around with it
 
-#### available routes:
-##### health check
+### available routes:
+#### health check
 >localhost:5000/ 
-##### Endpoint
+#### Endpoint
 
 >localhost:5000/posts
-#### methods:
-##### GET - gets all posts ordered by author
-##### POST - adds a new a post to the DB
+### methods:
+#### GET - gets all posts ordered by author
+#### POST - adds a new a post to the DB
 
 ---
 #### Here I provide a sample JSON snippet to use:
