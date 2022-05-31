@@ -10,21 +10,18 @@ This is a minimal backend test made to add and retrieve posts from a postgres DB
 
 ---
 ### Run Postgres server
->docker-compose up -d
+>docker run --rm --name postgres-posts -p 5432:5432 -e POSTGRES_PASSWORD=password -d postgres:13-alpine
 ### Download project
 > git clone https://github.com/Zoll-e/BackendTest
 
-### cd into project folder
+> cd into project folder
 
-### Start our express server 
-> npm install && npm start
-
-### Create schema in our DB
->npx prisma migrate dev
+### Start our express server and migrate schema to our DB
+> npm install && npx prisma migrate dev && npm start
 
 ---
 
-### Use postman to play around with it, here I provide a json snippet to try out(localhost:5000/posts):
+### Use postman to play around with it, here I provide a json snippet to try out(0.0.0.0:5000/posts):
 
 ---
 
