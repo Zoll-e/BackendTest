@@ -9,12 +9,15 @@ This is a minimal backend test made to add and retrieve posts from a postgres DB
 ## Run the application
 
 ---
-### Run Postgres server
->npm run db
+
 ### Download project
-> git clone https://github.com/Zoll-e/BackendTest
+> git clone https://github.com/Zoll-e/
 
 > cd into project folder
+BackendTest
+### Run Postgres server
+>npm run db
+
 
 ### Start our express server and migrate schema to our DB
 > npm install && npx prisma migrate dev --name init && npm start

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "db": "docker run --rm --name postgres-posts -p 5432:5432 -e POSTGRES_PASSWORD=password -d postgres:13-alpine    ",
+    "db": "docker run --name postgres-posts -p 5432:5432 -e POSTGRES_PASSWORD=password -d postgres:13-alpine    ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "zoll-e",
