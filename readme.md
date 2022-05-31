@@ -10,7 +10,7 @@ This is a minimal backend test made to add and retrieve posts from a postgres DB
 
 ---
 ### Run Postgres server
->docker run --rm --name postgres-posts -p 5432:5432 -e POSTGRES_PASSWORD=password -d postgres:13-alpine
+>npm run db
 ### Download project
 > git clone https://github.com/Zoll-e/BackendTest
 
