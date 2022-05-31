@@ -17,7 +17,7 @@ This is a minimal backend test made to add and retrieve posts from a postgres DB
 > cd into project folder
 
 ### Start our express server and migrate schema to our DB
-> npm install && npx prisma migrate dev && npm start
+> npm install && npx prisma migrate dev --name init && npm start
 
 ---
 
