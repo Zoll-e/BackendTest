@@ -5,6 +5,7 @@ COPY .env ./
 COPY . .
 
 RUN npm install
+RUN npx prisma generate
 
 EXPOSE 5000
 CMD npm start
