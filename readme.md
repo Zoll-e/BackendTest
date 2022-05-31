@@ -25,7 +25,7 @@ This is a minimal backend test made to add and retrieve posts from a postgres DB
 > git clone https://github.com/Zoll-e/BackendTest
 
 > cd into project folder
-BackendTest
+
 ### Run Postgres server
 >npm run db
 
